@@ -1,0 +1,31 @@
+{
+  "name": "example_bot",
+  "version": "1.0.0",
+  "description": "A bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "dev": "nodemon .",
+    "api": "node src/api/api.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Antoine",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.6.0",
+    "discord-api-types": "^0.37.35",
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "node": "^19.6.1",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.20",
+    "stripe": "^11.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
